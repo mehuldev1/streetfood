@@ -1,0 +1,92 @@
+@media (max-width:1024px){
+    /* custom css */
+    .text-content{
+        width: 100%;
+    }
+}
+@media (max-width:991px){
+    /* custom css*/
+    h1{
+        font-size: 2.8rem;
+    }
+    h2{
+        font-size: 2rem;
+        line-height: 2.0625rem;
+    }
+
+    /* navbar brand */
+    .navigation-wrapper{
+        text-align: center;
+        background-color: $white-color;
+    }
+    .navigation-wrapper .nav-link{
+        line-height: 1.875rem;
+    }
+    .bar-btn{
+        color: $text-color;
+    }
+
+
+    /* reviews */
+    .reviews-section .carousel-item {
+        margin-top: 10rem;
+        height: 34rem;
+    }
+    .reviews-section .carousel-item .carousel-caption p{
+        padding: 0;
+        font-size: 1rem;
+    }
+
+}
+@media (max-width:767px){
+    /* section-1 top-navbar */
+    .top-banner{
+        padding: 10.875rem 0 9.375rem;
+    }
+
+    /* section-4 story */
+    .story-section{
+        height: auto;
+        padding: 3rem 0;
+    }
+
+     /* reviews */
+    .reviews-section .carousel-item {
+        margin-top: -2rem;
+        height: 40rem;
+    }
+    .reviews-section .carousel-item .carousel-caption p{
+        padding: 0;
+        font-size: 0.825rem;
+    }
+}
+@media (max-width:576px){
+
+     /* reviews */
+    .reviews-section .carousel-item {
+        margin-top: 2rem;
+        height: 40rem;
+    }
+    .reviews-section .carousel-item .carousel-caption p{
+        padding: 0;
+        font-size: 0.825rem;
+    }
+
+    /* newslettar */
+    .newslatter{
+        width: 75%;
+
+        .main-btn{
+            width: 100%;
+            margin-top: 1rem;
+        }
+    }
+
+    /* footer */
+    .footer .footer-link,
+    .footer a i{
+        padding: 0 0.7rem;
+    }
+
+
+}

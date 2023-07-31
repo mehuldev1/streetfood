@@ -1,0 +1,51 @@
+/* section-6 reviews */
+.reviews-section{
+    background-color: $primary-color;
+
+    h2{
+        color: $white-color;
+        margin-top: -3rem;
+    }
+
+    .carousel-item{
+        margin-top: 3rem;
+        padding: 10rem 3.125rem;
+        background-color: $white-color;
+        border-radius: 0.9375rem;
+        text-align: center;
+        height: 35rem;
+
+        .carousel-caption img{
+            width: 10rem;
+            height: 10rem;
+            border-radius: 50%;
+            padding: 0.3125rem;
+        }
+
+        .carousel-caption p{
+            font-size: 1.3125rem;
+            line-height: 2.0625rem;
+            padding: 0.625rem;
+        }
+
+
+    }
+
+    .carousel-indicators{
+        bottom: -3.8125rem;
+
+        button{
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            border: none;
+            outline: none;
+            margin-right: 1rem;
+            opacity: 0.2;
+        }
+
+        button.active{
+            opacity: 1;
+        }
+    }
+}
